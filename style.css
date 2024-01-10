@@ -1,0 +1,165 @@
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('path/to/your/pool/image.jpg'); /* Replace with your pool image path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+/* Header styles */
+header {
+  background-image: linear-gradient(pink, royalblue);
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+/* Container styles */
+.container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.container button {
+  padding: 15px 30px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Form container styles */
+.form-container {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  background-image: linear-gradient(#ff99cc, #ffff99);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  width: 300px;
+  border: 2px solid #ccc;
+  margin: 10px auto;
+}
+
+.form-container h2 {
+  margin-bottom: 20px;
+}
+
+.form-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-container label {
+  margin-bottom: 5px;
+}
+
+.form-container input,
+.form-container select {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.form-container button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Specific button styles */
+#loginForm button {
+  background-color: #ff6666;
+  color: white;
+}
+
+#signupForm button {
+  background-color: #66cc66;
+  color: white;
+}
+
+#profilePage button {
+  background-color: #ffcc66;
+  color: white;
+}
+
+#contactUsPage button {
+  background-color: #6699ff;
+  color: white;
+}
+
+/* Profile Page Styles */
+#profilePage {
+  display: none;
+}
+
+#profilePage form {
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+#profilePage label,
+#profilePage input,
+#profilePage select {
+  display: block;
+  margin-bottom: 10px;
+}
+
+#profilePage input,
+#profilePage select {
+  width: calc(100% - 20px);
+  padding: 8px;
+  font-size: 16px;
+}
+
+#profilePage button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+#profilePage button:hover {
+  background-color: #0056b3;
+}
+
+/* Optional: Style inputs on focus/active */
+#profilePage input:focus,
+#profilePage select:focus {
+  outline: none;
+  border: 2px solid #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+.container button:nth-of-type(1) {
+  background-color: royalblue; /* Login button color */
+}
+
+.container button:nth-of-type(2) {
+  background-color: royalblue; /* Signup button color */
+}
+ #header-logo {
+      display: inline-block;
+      margin-right: 10px;
+    }
+
+    #mainPage-logo {
+      display: block;
+      margin: 20px auto;
